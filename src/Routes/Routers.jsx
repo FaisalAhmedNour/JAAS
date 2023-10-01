@@ -3,6 +3,8 @@ import Main from "../Layouts/Main/Main";
 import Home from "../Pages/Home/Home/Home";
 import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/Signup";
+import ShowAllNews from "../Pages/ShowAllNews/ShowAllNews";
+import SingleNews from "../Pages/SingleNews/SingleNews";
 
 export const router = createBrowserRouter([
     {
@@ -12,6 +14,14 @@ export const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home></Home>
+            },
+            {
+                path: "/show-all-news",
+                element: <ShowAllNews></ShowAllNews>
+            },
+            {
+                path: "/single-news",
+                element: <SingleNews></SingleNews>
             },
             {
                 path: "/about-us",

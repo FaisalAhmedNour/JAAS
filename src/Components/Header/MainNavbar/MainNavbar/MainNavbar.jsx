@@ -215,7 +215,7 @@ function MainNavbar() {
     let level = 0;
 
     return (
-        <nav className="bg-[#254b74] h-[40px]">
+        <nav className="bg-[#254b74] h-[40px] z-50">
             <div
                 className="container grid grid-cols-2 items-center max-w-5xl mx-0 lg:mx-auto"
             >
@@ -225,7 +225,7 @@ function MainNavbar() {
                 >
                     <p className="py-2 text-white font-semibold">Menu</p>
                 </div>
-                <div className={`${isOpen ? "block" : "hidden"} lg:block order-3 col-span-2 lg:relative`}>
+                <div className={`${isOpen ? "block" : "hidden"} lg:block order-3 col-span-2 lg:relative z-50`}>
                     <div className="flex flex-col lg:flex-row">
                         {
                             menus.map((items, index) => <MenuItems
