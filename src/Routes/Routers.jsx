@@ -38,6 +38,11 @@ import TrustBankLimited from "../Pages/TrustBankLimited/TrustBankLimited";
 import CareBank from "../Pages/CareBank/CareBank";
 import WinRockInternational from "../Pages/WinRockInternational/WinRockInternational";
 import MidlandBankLimited from "../Pages/MidlandBankLimited/MidlandBankLimited";
+import Jobs from "../Pages/Jobs/Jobs";
+import Tender from "../Pages/Tender/Tender";
+import Internship from "../Pages/Internship/Internship";
+import PhotoGallery from "../Pages/PhotoGallery/PhotoGallery";
+import VideoGallery from "../Pages/VideoGallery/VideoGallery";
 
 export const router = createBrowserRouter([
     {
@@ -190,23 +195,23 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/jobs",
-                element: <Home></Home>
+                element: <Jobs></Jobs>
             },
             {
                 path: "/tender",
-                element: <Home></Home>
+                element: <Tender></Tender>
             },
             {
                 path: "/internship",
-                element: <Home></Home>
+                element: <Internship></Internship>
             },
             {
                 path: "/photo-gallery",
-                element: <Home></Home>
+                element: <PhotoGallery></PhotoGallery>
             },
             {
                 path: "/video-gallery",
-                element: <Home></Home>
+                element: <VideoGallery></VideoGallery>
             },
             {
                 path: "/contact-us",
