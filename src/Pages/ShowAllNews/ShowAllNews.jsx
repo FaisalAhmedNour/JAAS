@@ -1,4 +1,5 @@
 import NewsCard from "../../Components/NewsCard/NewsCard";
+import Title from "../../Components/Title/Title";
 
 const ShowAllNews = () => {
 
@@ -73,11 +74,7 @@ const ShowAllNews = () => {
 
     return (
         <div className="max-w-5xl mx-auto my-5 py-5 px-5 bg-[white]">
-            <h2 className="uppercase text-center text-2xl mb-5 w-[250px] mx-auto">
-                <hr className="font-xl border-t-2 border-[#f98807]" />
-                <span>CURRENT NEWS</span>
-                <hr className="font-xl border-t-2 border-[#f98807]" />
-            </h2>
+            <Title title="current news" />
             <div className="grid grid-cols-4 gap-5">
                 {
                     newses.map((news, index) => <NewsCard key={index} news={news}></NewsCard>)

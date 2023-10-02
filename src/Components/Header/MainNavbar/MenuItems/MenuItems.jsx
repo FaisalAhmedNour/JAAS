@@ -15,13 +15,13 @@ const MenuItems = ({ items, level }) => {
                     onMouseEnter={() => isOpen(true)}
                     onMouseLeave={() => isOpen(false)}
                 >
-                    <p className="w-full py-2 px-5 lg:px-1 flex text-base justify-between items-end">
+                    <p className="w-full py-[10px] px-5 lg:px-1 flex text-sm justify-between items-end">
                         <span>{items.name}</span>
                         <span>
                             {
                                 level > 1 ?
-                                    <i className="fa-solid fa-chevron-right text-xs"></i> :
-                                    <i className="fa-solid fa-chevron-down text-xs ml-1"></i>
+                                    <i className="fa-solid fa-chevron-right text-[6px]"></i> :
+                                    <i className="fa-solid fa-chevron-down text-[6px] ml-1"></i>
                             }
                         </span>
                     </p>
@@ -35,7 +35,7 @@ const MenuItems = ({ items, level }) => {
         )
     } else {
         return (
-            <Link to={`${items.path}`} className={`py-2 px-5 lg:px-1 flex text-base bg-[#254b74] hover:bg-[#376ca6] uppercase lg:mr-[1px] text-white ${route === items.path ? "bg-[#376ca6]" : ""}`}>
+            <Link to={`${items.path}`} className={`py-[10px] px-5 lg:px-1 flex text-sm bg-[#254b74] hover:bg-[#376ca6] uppercase lg:mr-[1px] text-white ${route === items.path ? "bg-[#376ca6]" : ""}`}>
                 {items.name}
             </Link>
         )

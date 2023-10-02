@@ -5,6 +5,39 @@ import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/Signup";
 import ShowAllNews from "../Pages/ShowAllNews/ShowAllNews";
 import SingleNews from "../Pages/SingleNews/SingleNews";
+import AboutUs from "../Pages/AboutUs/AboutUs";
+import LegalStatus from "../Pages/LegalStatus/LegalStatus";
+import ManagementCouncil from "../Pages/ManagementCouncil/ManagementCouncil";
+import Organogram from "../Pages/Organogram/Organogram";
+import FinancialOverview from "../Pages/FinancialOverview/FinancialOverview";
+import InvestmentBreakup from "../Pages/InvestmentBreakup/InvestmentBreakup";
+import PopulationCoverage from "../Pages/PopulationCoverage/PopulationCoverage";
+import GeographicalCoverage from "../Pages/GeographicalCoverage/GeographicalCoverage";
+import GeneralSavings from "../Pages/GeneralSavings/GeneralSavings";
+import DepositPensionScheme from "../Pages/DepositPensionScheme/DepositpensionScheme";
+import IslamicMicroFinanceProgram from "../Pages/IslamicMicroFinanceProgram/IslamicMicroFinanceProgram";
+import MicroEnterpriseDevelopmentProgram from "../Pages/MicroEnterpriseDevelopmentProgram/MicroEnterpriseDevelopmentProgram";
+import AgriculturalDevelopmentProgram from "../Pages/AgriculturalDevelopmentProgram/AgriculturalDevelopmentProgram";
+import ProgramForUltraPoor from "../Pages/ProgramForUltraPoor/ProgramForUltraPoor";
+import Enrich from "../Pages/Enrich/Enrich";
+import Rojgar from "../Pages/Rojgar/Rojgar";
+import BeggarsRehabilitationProject from "../Pages/BeggarsRehabilitationProject/BeggarsRehabilitationProject";
+import AgentMakingProject from "../Pages/AgentMakingProject/AgentMakingProject";
+import MungbeanValueChainDevelopmentProject from "../Pages/MungbeanValueChainDevelopmentProject/MungbeanValueChainDevelopmentProject";
+import SiepProject from "../Pages/SiepProject/SiepProject";
+import SdlProject from "../Pages/SdlProject/SdlProject";
+import PubaliLtd from "../Pages/PubaliLtd/PubaliLtd";
+import SoutheastBankLimited from "../Pages/SoutheastBankLimited/SoutheastBankLimited";
+import NationalCreditAndCommerceBank from "../Pages/NationalCreditAndCommerceBankLimited/NationalCreditAndCommerceBank";
+import CommercialOfCeylon from "../Pages/CommercialOfCeylon/CommercialOfCeylon";
+import PalliKarmaSahayakFoundation from "../Pages/PalliKarmaSahayakFoundation/PalliKarmaSahayakFoundation";
+import SgsBangladesh from "../Pages/SgsBangladesh/SgsBangladesh";
+import FirstSecurityIslamiBankLtd from "../Pages/FirstSecurityIslamiBankLtd/FirstSecurityIslamiBankLtd";
+import DutchBanglaBank from "../Pages/DutchBanglaBank/DutchBanglaBank";
+import TrustBankLimited from "../Pages/TrustBankLimited/TrustBankLimited";
+import CareBank from "../Pages/CareBank/CareBank";
+import WinRockInternational from "../Pages/WinRockInternational/WinRockInternational";
+import MidlandBankLimited from "../Pages/MidlandBankLimited/MidlandBankLimited";
 
 export const router = createBrowserRouter([
     {
@@ -25,135 +58,135 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/about-us",
-                element: <Home></Home>
+                element: <AboutUs></AboutUs>
             },
             {
                 path: "/legal-status",
-                element: <Home></Home>
+                element: <LegalStatus></LegalStatus>
             },
             {
                 path: "/management-council",
-                element: <Home></Home>
+                element: <ManagementCouncil></ManagementCouncil>
             },
             {
                 path: "/organogram",
-                element: <Home></Home>
+                element: <Organogram></Organogram>
             },
             {
                 path: "/financial-overview",
-                element: <Home></Home>
+                element: <FinancialOverview></FinancialOverview>
             },
             {
                 path: "/investment-breakup",
-                element: <Home></Home>
+                element: <InvestmentBreakup></InvestmentBreakup>
             },
             {
                 path: "/population-coverage",
-                element: <Home></Home>
+                element: <PopulationCoverage></PopulationCoverage>
             },
             {
                 path: "/geographical-coverage",
-                element: <Home></Home>
+                element: <GeographicalCoverage></GeographicalCoverage>
             },
             {
                 path: "/general-savings",
-                element: <Home></Home>
+                element: <GeneralSavings></GeneralSavings>
             },
             {
                 path: "/deposit-pension-scheme",
-                element: <Home></Home>
+                element: <DepositPensionScheme></DepositPensionScheme>
             },
             {
                 path: "/islamic-micro-finance-program",
-                element: <Home></Home>
+                element: <IslamicMicroFinanceProgram></IslamicMicroFinanceProgram>
             },
             {
                 path: "/micro-enterprise-development-program",
-                element: <Home></Home>
+                element: <MicroEnterpriseDevelopmentProgram></MicroEnterpriseDevelopmentProgram>
             },
             {
                 path: "/agricultural-development-program",
-                element: <Home></Home>
+                element: <AgriculturalDevelopmentProgram></AgriculturalDevelopmentProgram>
             },
             {
                 path: "/program-for-ultra-poor",
-                element: <Home></Home>
+                element: <ProgramForUltraPoor></ProgramForUltraPoor>
             },
             {
                 path: "/enrich",
-                element: <Home></Home>
+                element: <Enrich></Enrich>
             },
             {
                 path: "/rojgar",
-                element: <Home></Home>
+                element: <Rojgar></Rojgar>
             },
             {
                 path: "/beggars-rehabilitation-project",
-                element: <Home></Home>
+                element: <BeggarsRehabilitationProject></BeggarsRehabilitationProject>
             },
             {
                 path: "/agent-making-project",
-                element: <Home></Home>
+                element: <AgentMakingProject></AgentMakingProject>
             },
             {
                 path: "/mungbean-value-chain-development-project",
-                element: <Home></Home>
+                element: <MungbeanValueChainDevelopmentProject></MungbeanValueChainDevelopmentProject>
             },
             {
                 path: "/siep-project",
-                element: <Home></Home>
+                element: <SiepProject></SiepProject>
             },
             {
                 path: "/sdl-project",
-                element: <Home></Home>
+                element: <SdlProject></SdlProject>
             },
             {
                 path: "/pubali-ltd",
-                element: <Home></Home>
+                element: <PubaliLtd></PubaliLtd>
             },
             {
                 path: "/southeast-bank-limited",
-                element: <Home></Home>
+                element: <SoutheastBankLimited></SoutheastBankLimited>
             },
             {
                 path: "/national-credit-and-commerce-bank-limited",
-                element: <Home></Home>
+                element: <NationalCreditAndCommerceBank></NationalCreditAndCommerceBank>
             },
             {
                 path: "/commercial-of-ceylon",
-                element: <Home></Home>
+                element: <CommercialOfCeylon></CommercialOfCeylon>
             },
             {
                 path: "/palli-karma-sahayak-foundation",
-                element: <Home></Home>
+                element: <PalliKarmaSahayakFoundation></PalliKarmaSahayakFoundation>
             },
             {
                 path: "/sgs-bangladesh",
-                element: <Home></Home>
+                element: <SgsBangladesh></SgsBangladesh>
             },
             {
                 path: "/first-security-islami-bank-ltd",
-                element: <Home></Home>
+                element: <FirstSecurityIslamiBankLtd></FirstSecurityIslamiBankLtd>
             },
             {
                 path: "/dutch-bangla-bank-limited",
-                element: <Home></Home>
+                element: <DutchBanglaBank></DutchBanglaBank>
             },
             {
                 path: "/trust-limited",
-                element: <Home></Home>
+                element: <TrustBankLimited></TrustBankLimited>
             },
             {
                 path: "/midland-mnk-limited",
-                element: <Home></Home>
+                element: <MidlandBankLimited></MidlandBankLimited>
             },
             {
                 path: "/care-bangladesh",
-                element: <Home></Home>
+                element: <CareBank></CareBank>
             },
             {
                 path: "/win-rock-international",
-                element: <Home></Home>
+                element: <WinRockInternational></WinRockInternational>
             },
             {
                 path: "/jobs",
